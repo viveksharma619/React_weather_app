@@ -1,0 +1,42 @@
+.input-group{
+    margin:20px 0px;
+}
+
+td, th {
+    vertical-align: middle !important;
+    text-align: center !important;
+}
+td:first-of-type{
+    height:200px;
+    width:250px;
+}
+.hero{
+    background-image: url('http://img.freepik.com/free-vector/weather-pattern_1061-487.jpg?size=338&ext=jpg');
+    background-repeat: repeat-x;
+	animation: animatedBackground 68s linear infinite;
+}
+@keyframes animatedBackground {
+	from { background-position: 0 0; }
+	to { background-position: 100% 0; }
+}
+.hero > h1 {
+    color: #fff;
+    text-align: center;
+    font-size: 50px;
+    line-height: 250px;
+    text-shadow: 2px 2px #368DA1;
+    margin-top:0px;
+}
+.nothing{
+    color:#368DA1;
+    text-align:center;
+    margin:20px 0px;
+    font-size:20px;
+}
+body,html{
+    margin:0px;
+}
+.custom_btn{
+    background-color:#82cbdd;
+    color:#fff;
+}
